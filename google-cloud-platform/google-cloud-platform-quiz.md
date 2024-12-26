@@ -357,7 +357,7 @@
 
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
 
-#### Q43. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types-with minimum effort. What do you do?
+#### Q43. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types--with minimum effort. What do you do?
 
 - [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that contained use discounts have been automatically applied to your bill.
 - [x] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that sustained use discounts have been automatically applied to your bill.
@@ -614,3 +614,59 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [x] Policy Denied
 - [ ] Admin Activity
 - [ ] Data Access
+
+#### Q75. When setting the condition for a rule in Google Cloud Armor, **\_** mode allows you to filter only by IP address or CIDR range.
+
+- [ ] IP/CIDR
+- [ ] Advanced
+- [ ] Custom
+- [x] Basic
+
+[Reference](https://cloud.google.com/armor/docs/configure-security-policies)
+
+#### Q76. Which Google Cloud service provides an overview dashboard that shows you active threats and vulnerabilities, ordered by severity?
+
+- [ ] Cloud Armor
+- [x] Security Command Center
+- [ ] Cloud Logging
+- [ ] Cloud Deployment Manager
+
+[Reference](https://cloud.google.com/security-command-center)
+
+#### Q77. Which field of a Google Cloud Armor rule determines when the rule will be evaluated?
+
+- [ ] ID
+- [ ] severity
+- [ ] sequence
+- [x] priority
+
+[Reference](https://cloud.google.com/armor/docs/cloud-armor-overview#rules_language)
+
+#### Q78. What is an ACL?
+
+- [ ] Access Container Log
+- [ ] Authorized Container List
+- [x] Access Control List
+- [ ] App Cloud Launch
+
+[Reference](https://cloud.google.com/storage/docs/access-control/create-manage-lists)
+
+#### Q79. In Google Cloud Platform, the **\_** role grants read-only access to the Access Transparency logs and to Data Access audit logs, in addition to the access granted by the Logs Viewer role.
+
+- [x] Private Logs Viewer
+- [ ] Project Writer
+- [ ] Logs Writer
+- [ ] Project Owner
+
+[Reference](https://cloud.google.com/logging/docs/access-control)
+
+#### Q80. Which of the following Google Cloud services is best suited for storing unstructured data, such as images and videos?
+
+- [ ] Cloud SQL
+- [ ] Cloud Bigtable
+- [x] Cloud Storage
+- [ ] Cloud Spanner
+
+**Explanation**
+
+- Cloud SQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server databases. It is designed for structured data and relational database needs. Cloud Bigtable is a NoSQL database service designed for large-scale, low-latency workloads but is not ideal for storing unstructured data like media files. Cloud Storage is designed specifically for storing unstructured data, such as images, videos, and backups. It is highly scalable, durable, and optimized for performance. Cloud Spanner is a fully managed, scalable, relational database service for mission-critical applications requiring strong consistency and horizontal scaling. It’s not designed for unstructured data storage.

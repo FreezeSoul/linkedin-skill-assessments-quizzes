@@ -88,7 +88,7 @@
 
 - [ ] Software entities should be open for extension, but closed for modification.
 - [ ] Entities must depend on abstractions, not on concrete implementations.
-- [ ] Objects in a program should be repleaceble with instances of their subtypes without altering the correctness of that programm.
+- [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [x] A class should have only a single responsibility - that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 
 #### Q14. When should a developer use the .NET Standard class library project type?
@@ -566,7 +566,7 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 
 - [ ] It can be used to configure the application services.
 - [x] It can ensure that middleware runs before or after middleware added by libraries at the start or end of the app's request processing pipeline.
-- [ ] It can specify how the app respondes to HTTP requests.
+- [ ] It can specify how the app responds to HTTP requests.
 - [ ] It can specify how the app makes requests to HTTP.
 
 #### Q73. You want to match interfaces of different classes. which design pattern best fits this objective?
@@ -591,3 +591,44 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] In C#, covariance and contravariance disables implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
 
 Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)
+
+#### Q76: There are many ways to perform redirection from an action method to another action method. Which choice is not one of them?
+
+- [ ] &shy;
+
+```c#
+Redirect;
+RedirectPermanent
+```
+
+- [ ] &shy;
+
+```c#
+RedirectToAction;
+RedirectToActionPermanent
+```
+
+- [ ] &shy;
+
+```c#
+RedirectToRoute;
+RedirectToRoutePermanent
+```
+
+- [x] &shy;
+
+```c#
+RedirectUp;
+RedirectUpPermanent
+```
+
+Reference: [Redirection in .NET](https://www.infoworld.com/article/3570787/how-to-redirect-a-request-in-aspnet-core-mvc.html)
+
+#### Q77: Which choice is _not_ part of an assembly?
+
+- [ ] manifest
+- [ ] CIL
+- [ ] MSIL
+- [x] resources
+
+Reference: [Assembly](https://learn.microsoft.com/en-us/dotnet/standard/assembly/)
